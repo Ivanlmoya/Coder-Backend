@@ -3,11 +3,11 @@ import express from 'express'
 import { Server as HttpServer } from 'http'
 import { Server as Socket } from 'socket.io'
 
-import ContenedorSQL from './src/contenedores/ContenedorSQL.js' //A partir de ahora ya no interactuamos con el filesystem sino directo con el sql asi que usamos el contenedorSQL
+import ContenedorSQL from './contenedores/ContenedorSQL.js' //A partir de ahora ya no interactuamos con el filesystem sino directo con el sql asi que usamos el contenedorSQL
 // import ContenedorArchivo from './contenedores/ContenedorArchivo.js'
 // import ContenedorMemoria from './contenedores/ContenedorMemoria.js'
 
-import config from './src/config.js' //importamos las configuraciones del archivo config
+import config from './config.js' //importamos las configuraciones del archivo config
 
 //--------------------------------------------
 // instancio servidor, socket y api
@@ -23,12 +23,6 @@ const mensajesApi = new ContenedorSQL(config.sqlite3, 'mensajes');
 // const mens = new ContenedorMemoria('mensajes');
 //--------------------------------------------
 // configuro el socket
-
-app.use(express.static('public'));
-
-app.get('/', (req, res) => {
-    res.sendFile('./public/index.html', { root: __dirname });
-});
 
 
 io.on('connection', async  socket => {

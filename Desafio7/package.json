@@ -6,8 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/main.js",
-    "crearTabla": "node scripts/crearTablas.js"
+    "pagina": "node src/main.js",
+    "crearTabla": "node scripts/crearTablas.js",
+    "start": "npm run pagina && npm run crearTabla"
   },
   "keywords": [],
   "author": "",

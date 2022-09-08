@@ -17,9 +17,9 @@ const mariaDbClient = knex(config.mariaDb)
         
         //Inserto elementos a modo ejemplo
         const articulos = [
-            {title: 'Mirinda'  ,price: 180, thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnL-AibR8iEbML_MifNkcnQ0-fljiaSm3vQ-GqKdDrS6NM4VYf1wgIVpZ7E0fequdDQEjZ3SWtiA&usqp=CAc' },
-            {title: 'Seven Up', price: 190, thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnL-AibR8iEbML_MifNkcnQ0-fljiaSm3vQ-GqKdDrS6NM4VYf1wgIVpZ7E0fequdDQEjZ3SWtiA&usqp=CAc'},
-            {title: 'Pepsi', price: 185, thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnL-AibR8iEbML_MifNkcnQ0-fljiaSm3vQ-GqKdDrS6NM4VYf1wgIVpZ7E0fequdDQEjZ3SWtiA&usqp=CAc'}
+            {title: 'imagenprueba'  ,price: 1200, thumbnail:'https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png' },
+            {title: 'imagenprueba2', price: 2000, thumbnail: 'https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-128.png'}
+    
         ];
         
          await mariaDbClient('articulos').insert(articulos);
