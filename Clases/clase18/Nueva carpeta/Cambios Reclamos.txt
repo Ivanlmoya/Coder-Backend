@@ -1,0 +1,115 @@
+Version 304
+-----------------------------------------------------------------
+Cambios en la app 21/01
+
+-Se agrego Orden de visualizacion de manera descendente , donde los primeros registros son los que han sufrido modificaciones ultimamente.
+-Se agrego la posibilidad de filtrar por estado del ticket.
+-Se puso un emoji para indicar el estado finalizado / finalizado rechazado / finalizado aceptado
+
+Cambios en la app 24/01
+
+-Ahora cuando un ticket entra en estado Finalizado , no permite editar ningun campo salvo si acepta o rechaza el reclamo
+-Se arreglo un error donde el historial traia todo los comentarios hechos en solucion /observacion y en el campo rechazado,ahora muestra correctamente cada campo.
+-Se arreglo un error donde el pop up para completar el campo solucionado no aparecia.
+-Se agrego una leyenda en el campo "documento flexxus " como ejemplo de que informacion debe ir.
+-Se agrego una etiqueta donde muestra la ultima fecha de modificacion.
+
+Cambios en la app 25/01
+
+-Se corrigio el valor por defecto de Estado en "Pendiente"
+-La prioridad No se asigna automaticamente , el valor queda a disposicion del representante.
+-Ahora el historial se muestra de manera correcta.
+-Se agrego a las demas pestañas el boton para visualizar los reclamos 
+
+Cambios en la app 26/01
+
+-Se corrigio en la pestaña "Ticket Pendientes " no estaba filtrando de manera correcta
+-Se corrigio en la pestaña asignados " no filtraba de manera correcta
+-Se corrige tamaños de textos del ticket 
+-Se agregaron tooltips de ayuda en el formulario
+
+Cambios en la app 27/01 
+
+-Se cambia el nombre de ticket por reclamo en las pestañas
+-Se agrega nombre de socio en las pestaña "reclamo Pendiente" reclamos Asignados y reclamos Creados
+-Se creo perfil de comprador donde se le permite enviar la info del ticket por mail
+
+Cambios en la app 31/01
+-Se agrega la posibilidad de enviar notificaciones hasta 4 asignados + El responsable y el usuario por defecto
+-Se corrige un error por lo que si eras de compras no permitia crear un ticket
+-Se corrige un error que los de compras no visualizaban correctamente el boton del mail.
+
+Cambios en la app 01/02
+-Se agrega efecto sobre los botones de las pestañas cuando se pasa el mouse encima
+-Se cambio de lugar el boton de "Nuevo Reclamo"
+-Se agrego el nombre del proveedor en las pestañas "Asignados" , "Creados" , "Pendientes"
+
+Version 305
+-----------------------------------------------------------------
+Cambios en la app 02/02
+
+-Ahora trae en el campo Cliente automaticamente el valor correpondiente a los socios y el valor "COPMACO" para los reclamos internos siempre que la empresa seleccionada sea COPMACO
+-Se corrigio un error en las notificaciones enviadas para celular y aplicacion de escritorio 
+-Ahora las notificaciones indican el N°de reclamo del reclamo modificado
+-Ahora en la columna de todos los tickets se muestra el N° del reclamo.
+
+Cambios en la app 03/02
+- Se agrego el id del ticket en todas las pestañas
+- se corrigio un error que mostraba todos los tickets a persona que no cuentan con ese perfil
+
+Cambios en la app 08/02
+- Se centraron los textos de todas las pestañas
+- Se Actualizaron la casuisticas
+
+Cambios en la app 09/02
+-Se corrigio un error porque no filtraba la casuistica de manera correcta
+-Se agrego boton de mail en todas las pestañas 
+
+Cambios en la app 10/02
+-Se saco el acceso a las demas pestañas solo se puede acceder a la pestaña "red copmaco " y "Reclamos"
+-Se agrego orden ascendente en las problematicas
+-Se arreglo un error que la notificacion por mensaje no mostraba correctamente el numero de reclamo cuando se generaba un reclamo nuevo
+-Se corrigio un error que no permitia seleccionar permisos a menos que se seleccionara manualmente la empresa.
+
+Cambios en la app 11/02
+-Se agrego un indicador en el boton de filtros que avisa cuando quedo algun filtro puesto
+-Se agrego un indicador en el color del borde de los campos para filtrar indicando si contiene o no contiene informacion
+
+Cambios en la app 14/02
+-Se cambio el formulario de permisos de la app ahora permite visualizar los permisos asignados y si sos administrador tenes la posibilidad de crear cuentas y ver los permisos.
+-Se soluciono un error que cuando guardabas un reclamo se sobreescribia el dato del socio y reesponsable. 
+
+Cambios en la app 15/02
+-se agregaron varios tooltip e indicadores en los formularios y los filtros
+-Se arreglo un error que la notificacion no llegaba a la persona reesponsable del socio
+
+Cambios en la app 16/02
+-Se Arreglo un error en la pestaña "Pendientes" que no filtraba de manera correcta los reclamos creados en estado pendiente
+-Se modifico la logica de varios campos del formulario para ajustarse a los cambios de cuentas 
+
+Cambios en la app 17/02
+- Se agrego un boton de informacion para ver el paso a paso de crear un ticket
+
+Cambios en la app 22/02
+-Se inicializaron las variables cuando se inicia la app , para mayor seguridad
+
+--------------------------------------------------------------------------------------------------------------------------
+Cambios en la app 08/04
+-Se elimino la app anterior , las notificaciones ahora se mandan correctamente por la app designada
+
+Cambios en la app 11/04
+-Se actualizo galerias para que fueran mas intuitivas , ahora hay 1 sola en vez de 4
+
+Cambios en la app 12/04
+-Se optimizo la app sacando variables y controles que no se utilizaban
+-Se Modifico el tamaño del nombre del socio para que sea mas facil identificar
+-Se cambio los colores de los textos para que sean mas legibles
+
+Cambios en la app 13/04
+-En la solapa de pendientes reclamos y Creados Se agrego el campo de modificado que dependiendo el color sabemos que reclamo se actualizo
+
+
+Cambios en la app 18/04
+-Se agrego emoji en las solapas individuales para saber el estado de los reclamos
+
+------------------------------------------------------------------------------------
