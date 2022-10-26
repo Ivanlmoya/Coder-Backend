@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1"
+  },
+  "name": "nuevapagina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": " purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
