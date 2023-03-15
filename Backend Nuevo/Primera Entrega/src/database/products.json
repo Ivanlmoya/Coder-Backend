@@ -1,0 +1,32 @@
+[
+  {
+    "id": "3",
+    "title": "title 1",
+    "description": "description 1",
+    "code": "AAA000",
+    "price": 200,
+    "status": true,
+    "stock": 20,
+    "category": "category 1"
+  },
+  {
+    "id": "2",
+    "title": "title 2",
+    "description": "description 2",
+    "code": "AAA111",
+    "price": 300,
+    "status": true,
+    "stock": 20,
+    "category": "category 2"
+  },
+  {
+    "id": "1",
+    "title": "title 3",
+    "description": "description 3",
+    "code": "AAA222",
+    "price": 300,
+    "status": true,
+    "stock": 20,
+    "category": "category 3"
+  }
+]
